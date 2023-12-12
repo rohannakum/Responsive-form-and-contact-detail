@@ -1,0 +1,176 @@
+/*=== Global CSS ===*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sideMargin {
+    margin: 0px 16%;
+}
+
+
+/*=== CSS for Index page ===*/
+
+/*=== CSS for Index Section-1 ===*/
+
+#section1 {
+    background-color: rgb(210, 208, 205);
+    width: 100%;
+    display: inline-block;
+}
+
+#sec1div3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1div1 {
+    width: 50%;
+}
+
+#sec1div1 h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#sec1div1p1 {
+    font-size: 25px;
+    margin: 10px 5px;
+
+}
+
+.sec1div1p2 {
+    font-size: 15px;
+    color: grey;
+    margin: 10px 5px;
+}
+
+#contactDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contactButton {
+    width: 45%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.contactButton img {
+    width: 46px;
+}
+
+.contactP {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px auto;
+}
+
+.contactP2 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px auto;
+    color: rgb(101, 98, 98);
+}
+
+
+#sec1div2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#bookingForm {
+    background-color: white;
+    width: 85%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#bookingForm h2 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+}
+
+#bookingForm input {
+    width: 70%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px auto;
+    font-size: 19px;
+    padding-left: 35px;
+}
+
+#bookingForm button {
+    width: 25%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+@media screen and (max-width: 1275px){
+
+    #sec1div3{
+        flex-direction: column;
+
+    }
+    #sec1div1 {
+        width: 100%;
+    }
+
+    #sec1div2 {
+        margin: 30px auto;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 850px){
+    #contactDiv{
+        flex-direction: column;
+    }
+    .contactButton{
+        justify-content: center;
+        width: 100%;
+    }
+    .contactButton div{
+        margin: auto 28px;
+    }
+}
+
+/*=== CSS for Index Section-2 ===*/
+#section2{
+    width: 100%;
+    border: 0.5px solid black;
+    
+}
+#sec2div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
